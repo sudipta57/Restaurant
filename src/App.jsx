@@ -42,13 +42,13 @@ const MainContent = () => {
         <Route path="/sign-up" element={<Signup />} />
         <Route path="/sign-in" element={<Signin />} />
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
         <Route path="/my-cart" element={<CartPage />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/shop" element={<Shop />} />
+        <Route path="/read-blog" element={<Blog />} />
+        <Route path="/view-shop" element={<Shop />} />
         <Route path="/item-details" element={<ItemDetails />} />
-        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/view-profile" element={<ProfilePage />} />
       </Routes>
       {!shouldHideHeaderFooter && <Footer />}
     </>

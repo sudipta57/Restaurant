@@ -61,21 +61,21 @@ export default function Navbar() {
                 Home
               </Link>
               <Link
-                to={"/about"}
+                to={"/about-us"}
                 className="text-gray-600 hover:text-red-500 font-medium my-2 md:my-0"
                 onClick={() => setMenuOpen(false)}
               >
                 About Us
               </Link>
               <Link
-                to={"/shop"}
+                to={"/view-shop"}
                 className="text-gray-600 hover:text-red-500 font-medium my-2 md:my-0"
                 onClick={() => setMenuOpen(false)}
               >
                 Shop
               </Link>
               <Link
-                to={"/blog"}
+                to={"/read-blog"}
                 className="text-gray-600 hover:text-red-500 font-medium my-2 md:my-0"
                 onClick={() => setMenuOpen(false)}
               >
@@ -83,7 +83,7 @@ export default function Navbar() {
               </Link>
 
               <Link
-                to={"/contact"}
+                to={"/contact-us"}
                 className="text-gray-600 hover:text-red-500 font-medium my-2 md:my-0"
                 onClick={() => setMenuOpen(false)}
               >
@@ -105,7 +105,7 @@ export default function Navbar() {
             {/* Contact Us and Dropdown */}
             <div className="relative flex" ref={dropdownRef}>
               <Link
-                to={"/contact"}
+                to={"/contact-us"}
                 className="bg-[#EF294C] text-white px-5 text-[12px] py-2 rounded-md font-medium whitespace-nowrap flex items-center"
               >
                 Contact Us
@@ -123,13 +123,13 @@ export default function Navbar() {
                   <ul className="py-2">
                     <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
                       <i className="fa fa-user"></i>
-                      <Link to="/profile" className="ms-2">
+                      <Link to="/view-profile" className="ms-2">
                         My Profile
                       </Link>
                     </li>
                     <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
                       <i class="fa-solid fa-right-from-bracket"></i>
-                      <Link to="/profile" className="ms-2">
+                      <Link to="/view-profile" className="ms-2">
                         logout
                       </Link>
                     </li>
