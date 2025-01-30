@@ -158,7 +158,7 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="mt-12 max-w-7xl mx-auto border-t-4 border-yellow-300 pt-4 text-center text-sm text-gray-400">
           <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-4">
-            <p>Copyright@RESTRO | developed by SECWEBXPERTS PVT. LTD.</p>
+            <p>Copyright @ RESTRO | developed by SECWEBXPERTS PVT. LTD.</p>
             <p>
               <a href="#" className="hover:underline">
                 Privacy Policy
