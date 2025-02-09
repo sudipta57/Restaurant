@@ -45,10 +45,10 @@ const MainContent = () => {
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/my-cart" element={<CartPage />} />
-        <Route path="/read-blog" element={<Blog />} />
-        <Route path="/view-shop" element={<Shop />} />
+        <Route path="/our-blog" element={<Blog />} />
+        <Route path="/our-shop" element={<Shop />} />
         <Route path="/item-details" element={<ItemDetails />} />
-        <Route path="/view-profile" element={<ProfilePage />} />
+        <Route path="/my-profile" element={<ProfilePage />} />
       </Routes>
       {!shouldHideHeaderFooter && <Footer />}
     </>

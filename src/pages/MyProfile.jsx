@@ -23,8 +23,8 @@ const ProfilePage = () => {
           <div className="flex items-center space-x-3">
             <div className="mb-4">
               <img
-                src="https://s3-alpha-sig.figma.com/img/7b74/2da4/f32210b1a930722a5a9adb1c83d58331?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Qpx3FPyIiq3WWj0IMxjpl9DidzsVQRuD9jhtTYpaZ~4v58r72pkP3yHr9YmKf8Yv5gkeKWtmWU~xR4AQyJt7z-jJ1Axr5YWC0qV9A7xkPYNEDXmflj3NV1jG8PxZ3Smv692cJztZ0q-wtTevMut~wtI0Rnfy9RPcc33u6elaTSP8WlQyNZQ3T23qAjMIKU0disERpt5kjCH0c5ZM0LGrTwnDWKcMOOgak4LNwTsK0mJc-8C-CYQQ3t4LY1NF0p-feVcY3Yzf4p1PIShFEqieLArg5GLxpHgKvbWD3iU7s6TC4bzqvRpHxtgB8KCQl1vfqT1Zk4YIdQ0FehOich6mnA__"
-                alt="User Avatar"
+              src="/home/photo.png"
+                 alt="User Avatar"
                 className="w-20 h-20 rounded-full"
               />
             </div>
@@ -39,7 +39,7 @@ const ProfilePage = () => {
         </div>
 
         {/* Account Details */}
-        <div className="w-full max-w-7xl mt-6 p-6">
+        <div className="w-full max-w-7xl font-roboto mt-6 p-6">
           <div className="flex justify-between items-center">
             <h2 className="text-lg font-semibold">Account Details</h2>
           </div>
@@ -69,6 +69,8 @@ const ProfilePage = () => {
           </div>
         </div>
       </div>
+      <div className="bg-white h-4 pb-4"></div>
+
     </>
   );
 };

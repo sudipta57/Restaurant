@@ -67,10 +67,10 @@ export default function Delicious() {
 
   return (
     <div>
-      <div className="text-gray-800">
+      <div className="text-[#000000]">
         <h1 className="text-[60px] font-[700] text-center mb-10 font-oswald">
           Delicious Menus
-          <span className="block mt-1 h-1 w-16 bg-yellow-500 mx-auto"></span>
+          <span className="block mt-1 h-[10px] w-[270px] rounded-3xl bg-[#FFD40D] mx-auto md:ms-[480px]"></span>
         </h1>
         <div className="flex flex-wrap justify-center gap-8 items-center">
           {/* Breakfast Section */}
@@ -95,13 +95,13 @@ export default function Delicious() {
 const MenuSection = ({ title, items, isLarge }) => {
   return (
     <div
-      className={`bg-white shadow-lg rounded-xl p-6 w-80 ${
+      className={`bg-[#FFFFFF01] shadow-lg rounded-xl p-6 w-80 ${
         isLarge ? "h-[550px]" : "h-[450px]"
       } flex flex-col`}
     >
-      <h2 className="text-2xl font-bold mb-4">
+      <h2 className="text-[30px] font-bold mb-4 font-oswald">
         {title}
-        <span className="block mt-1 h-1 w-10 bg-yellow-500"></span>
+        <span className="block mt-1 h-1 w-10 bg-[#FFD40D] rounded-lg"></span>
       </h2>
       <ul className="flex-grow overflow-y-auto">
         {items.map((item, index) => (
@@ -110,10 +110,14 @@ const MenuSection = ({ title, items, isLarge }) => {
             className="border-b border-gray-200 py-4 last:border-none"
           >
             <div className="flex justify-between">
-              <h3 className="font-semibold">{item.title}</h3>
+              <h3 className="font-roboto text-[18px] font-[500]">
+                {item.title}
+              </h3>
               <span className="text-red-500 font-bold">{item.price}</span>
             </div>
-            <p className="text-sm text-gray-600 mt-1">{item.description}</p>
+            <p className="text-[14px] font-[400] text-[#555555] mt-1">
+              {item.description}
+            </p>
           </li>
         ))}
       </ul>

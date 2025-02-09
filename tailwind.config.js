@@ -11,9 +11,11 @@ export default {
         roboto: ["Roboto", "sans-serif"],
         epilogue: ["Epilogue", "sans-serif"],
         fredoka: ["Fredoka One", "cursive"],
+        oregano: ["Oregano", "sans-serif"],
+        fugazOne: ["Fugaz One", "Oregano"],
+        Amiri: ["Amiri", "Oregano"],
       },
     },
   },
   plugins: [],
 };
-

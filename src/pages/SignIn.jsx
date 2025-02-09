@@ -5,11 +5,11 @@ const Signin = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="flex flex-col md:flex-row max-w-[1500px] w-full">
+      <div className="flex flex-col md:flex-row max-w-[1200px] p-10 w-full">
         {/* Left Image Section */}
         <div className="md:w-1/2 relative">
           <img
-            src="/register.png" // Replace with your image URL
+            src="/login.png" // Replace with your image URL
             alt="Food"
             className="w-full h-full object-cover"
           />
